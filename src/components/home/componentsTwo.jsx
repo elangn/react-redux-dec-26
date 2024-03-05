@@ -1,11 +1,12 @@
-import reactLogo from '../../assets/react.svg';
-import ComponentsThree from './ComponentsThree';
+import reactLogo from "../../assets/react.svg";
+import ComponentsThree from "./ComponentsThree";
 
-import viteLogo from '/vite.svg';
+import viteLogo from "/vite.svg";
 const ComponentsTwo = ({ count, setCount }) => {
   return (
     <>
       <div>
+        <p> ======= contoh parsing props =====</p>
         <a
           rel="noreference noreferrer"
           href="https://vitejs.dev"
@@ -18,7 +19,9 @@ const ComponentsTwo = ({ count, setCount }) => {
         </a>
       </div>
       <h1>Vite + React</h1>
+
       <ComponentsThree count={count} setCount={setCount} />
+      <p> ========== </p>
     </>
   );
 };

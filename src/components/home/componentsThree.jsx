@@ -1,17 +1,18 @@
-import React from 'react';
-import Button from '../common/button';
+import React from "react";
+import Button from "../common/button";
 
 const ComponentsThree = ({ count, setCount }) => {
   return (
     <div>
       <div className="card">
-        <Button count={count} setCount={setCount} color={'white'}>
+        <Button count={count} setCount={setCount} color={"white"}>
           count is
         </Button>
         <button onClick={() => setCount((count) => count - 1)}>
-          {' '}
-          Countdown{' '}
+          {" "}
+          Countdown{" "}
         </button>
+
         <p>
           Edit <code>src/App.jsx</code> and save to test HMR
         </p>
